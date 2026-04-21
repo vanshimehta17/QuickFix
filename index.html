@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickFix</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="nav">
+  <h2>QuickFix</h2>
+</div>
+
+<div class="container">
+
+  <!-- PAGE 1 -->
+  <div id="p1" class="page active">
+    <h1>Find Local Services</h1>
+    <button onclick="go('p2')">Search Services</button>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div id="p2" class="page">
+    <h1>Services</h1>
+    <button onclick="go('p3')">View Profile</button>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div id="p3" class="page">
+    <h1>Worker Profile</h1>
+    <button onclick="go('p4')">Book Service</button>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div id="p4" class="page">
+    <h1>Booking</h1>
+    <button onclick="go('p5')">Confirm</button>
+  </div>
+
+  <!-- PAGE 5 -->
+  <div id="p5" class="page">
+    <h1>Booking Confirmed ✅</h1>
+    <button onclick="go('p1')">Go Home</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
